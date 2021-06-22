@@ -1,1 +1,66 @@
-stylesMod3.css
+*{
+	box-sizing: border-box;
+  	margin:0;
+  	padding: 0;
+  	font-size: 14px;
+  	font-family: Helvetica;
+  	color: #000000;
+}
+/*header*/
+#header_nav{/*header border*/
+	border:solid 2px black;
+}
+.navbar-dark{/*overwrite bg color for header*/
+	background-color: #7d7f82;
+	/*color: black;*/
+}
+div section{
+	background-color: #7d7f82;
+	padding: 10px;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+.navbar-dark .navbar-toggler{
+	border:solid 2px black;
+}
+#nav-list a:hover{
+	text-align: center;
+	background-color: #ffffff;
+	color:black;
+}
+#nav-list a{
+	color:black;
+	background-color: transparent;
+	text-align: center;
+}
+
+.navbar-dark .navbar-toggler-icon{/*overwrite icon lines color in stroke*/
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/***** lg devices ****/
+@media(min-width: 1200px){
+
+}
+/***** md devices ****/
+@media(min-width: 1200px){
+	
+}
+/***** sm devices ****/
+@media(min-width: 1200px){
+	
+}
+/***** sx devices ****/
+@media(min-width: 1200px){
+	
+}
+
+
+/******Page content*******/
+.page-header h2{
+	text-align: center;
+	margin-top: 30px;
+}
+
