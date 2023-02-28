@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practise css, the box model</title>
+	<style>
+		*{
+			box-sizing:border-box; 
+		}
+		body{
+			background-color: gray;
+			padding:0;
+			margin:0;
+		}
+		#box{
+			background-color: #bcddfc;
+			padding:10px 30px 10px 30px;
+			border:20px solid #000000;
+			margin:40px;
+			width:500px;
+			height: 500px;
+			overflow: scroll;
+			
+		}
+		#box ol li{
+			background-color: #cdffff;/*green*/
+			padding:10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<ol>
+		<li>In HTML every element is considered a box. However, there's more to that box than just the content that the element wraps around.
+		</li>
+		<li>HTML element and by default it's actually set to content box, which means when you specify it's height and width, you're specifying the height and width of the content box, not the entire thing. Well CSS 3 came out with a new value for that property, and that's called border-box.
+		</li>
+		<li> But the truth of the matter is, all the modern frameworks like Bootstrap and others use box, border box as its sizing mode, and as you plan and work with your layouts this is the same choice to make. So, make sure you always stay with a box sizing of border box. Also, this box-sizing is not inherited from parent.So instead use start(*) element for all .
+		</li>
+		<li>start element applies style to each and every element of the html</li>
+		<li>Background property will overwrite any properties defined earlier if not specified with it.</li>
+		
+	</ol>
+	</div>
+</body>
+</html>

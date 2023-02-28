@@ -1,0 +1,26 @@
+body{
+	background-color: cadetblue;
+}
+h2 {
+	color: navy;
+}
+article>p{
+	color:green;
+}
+li{
+	color:purple;
+	font-family:Helvetica;
+	
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	background-color: lime;
+}
+.txtFont{
+			font-family: Ariel;
+			color:#2cd1df;
+			font-style: italic;
+			text-transform: initial;
+			}

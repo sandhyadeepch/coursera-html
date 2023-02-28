@@ -12,12 +12,18 @@
 }
 .navbar-dark{/*overwrite bg color for header*/
 	background-color: #7d7f82;
-	/*color: black;*/
 }
-div section{
+span > h2{
+	margin:15px 0px 15px 0px;
+}
+.row > div{
+	margin:10px;
 	background-color: #7d7f82;
 	padding: 10px;
+	height: 800px;
+
 }
+
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
@@ -40,23 +46,11 @@ div section{
 .navbar-dark .navbar-toggler-icon{/*overwrite icon lines color in stroke*/
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-/***** lg devices ****/
-@media(min-width: 1200px){
-
+section{
+	border:solid 1px black;
+	padding: 10px;
+	margin:5px;
 }
-/***** md devices ****/
-@media(min-width: 1200px){
-	
-}
-/***** sm devices ****/
-@media(min-width: 1200px){
-	
-}
-/***** sx devices ****/
-@media(min-width: 1200px){
-	
-}
-
 
 /******Page content*******/
 .page-header h2{
